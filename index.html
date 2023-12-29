@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TEST</title>
 </head>
 <body>
+
     <h1>hello world</h1>
+
+    <div class="search-box" style="padding: 0px 15px;">
+        搜索编号:<input id="obj1" type=text style="width:300px;" value="404515310000" \>
+        <button onclick="f1()">点击检索</button>
+    </div>
+
+    <script type="text/javascript">
+        function f1() {
+            var number = document.getElementById("obj1");
+            location.href = "http://yuanwww.github.io/" + number.value;
+        }
+    </script>
+
+
 </body>
 </html>
